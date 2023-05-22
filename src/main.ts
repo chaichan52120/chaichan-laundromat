@@ -8,8 +8,10 @@ import App from "./App.vue";
 import "@quasar/extras/material-icons/material-icons.css";
 // Import Quasar css
 import "quasar/src/css/index.sass";
+import router from "./router";
 
 createApp(App)
+  .use(router)
   .use(Quasar, {
     plugins: { Dialog }, // import Quasar plugins and add here
   })
