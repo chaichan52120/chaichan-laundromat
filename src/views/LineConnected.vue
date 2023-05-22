@@ -11,7 +11,7 @@ onMounted(() => {
 
 const lineGetToken = () => {
   const grantType = 'authorization_code'
-  const redirect = 'https://94d1-27-55-69-213.ngrok-free.app/line-connected';
+  const redirect = 'https://chaichan-laundromat.herokuapp.com/line-connected';
   const clientId = 'XhpGFAQSOA14ClsCyMnlyg';
   const clientSecret = 'wmY1BvkEk5Yfk8ly4JbRJqbBIzolfn7EK1QXeZXvwcY'
 

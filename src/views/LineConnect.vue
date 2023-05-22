@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const lineAuth = () => {
   const clientId = "XhpGFAQSOA14ClsCyMnlyg";
-  const redirect = 'https://94d1-27-55-69-213.ngrok-free.app/line-connected';
+  const redirect = 'https://chaichan-laundromat.herokuapp.com/line-connected';
   const state = 'my-laundromat';
   window.location.href = `https://notify-bot.line.me/oauth/authorize?response_type=code&client_id=${clientId}&redirect_uri=${redirect}&scope=notify&state=${state}`;
 };
