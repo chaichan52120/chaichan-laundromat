@@ -24,7 +24,7 @@ const onSubmit = () => {
       <q-card class="my-card full-width absolute-center">
         <q-card-section>
           <q-form @submit="onSubmit">
-            <div class="text-h4 q-py-md text-center">My Laundromat</div>
+            <div class="text-h4 q-py-md text-center">Chaichan Laundromat</div>
             <q-input v-model="form_data.username" filled label="ชื่อผู้ใช้" label-color="primary" lazy-rules
               :rules="[val => val && val.length > 0 || 'Please type something']" />
             <q-btn class="full-width q-mb-md" color="primary" label="เข้าระบบ" size="lg" dense type="submit" />
